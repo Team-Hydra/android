@@ -494,11 +494,12 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="vendor/cm" name="Team-Hydra/android_vendor_cm" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  #add support for xiaomi mione_plus base on 3.4.0 kernel repo from @iptux
-  <project path="device/xiaomi/msm8660-common" name="iptux/android_device_xiaomi_msm8660-common" revision="refs/heads/jb-7.8" />
-  <project path="device/xiaomi/mione_plus" name="iptux/android_device_xiaomi_mione_plus" revision="refs/heads/jb-7.8" />
-  <project path="vendor/xiaomi/mione_plus" name="iptux/android_vendor_xiaomi_mione_plus" revision="refs/heads/kernel-3.4" />
-  <project path="hardware/qcom/display-legacy" name="iptux/android_hardware_qcom_display-legacy" revision="refs/heads/jb-7.8" />
+  #add support for xiaomi mione_plus base on 3.0.8 kernel repo from @iptux#
+  <project path="device/xiaomi/msm8660-common" name="iptux/android_device_xiaomi_msm8660-common" revision="refs/heads/cm-11.0" />
+  <project path="device/xiaomi/mione_plus" name="iptux/android_device_xiaomi_mione_plus" revision="refs/heads/cm-11.0" />
+  <project path="vendor/xiaomi/mione_plus" name="iptux/android_vendor_xiaomi_mione_plus" revision="refs/heads/cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="Team-Hydra/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/media-legacy" name="Team-Hydra/android_hardware_qcom_media-legacy" revision="refs/heads/cm-11.0" />
+
 
 </manifest>
