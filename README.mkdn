@@ -19,3 +19,32 @@ After the initial sync sync once more so that the local_manifest.xml will be pic
 After that you need to get proprietary CM bits:
 
     ./vendor/cm/get-prebuilts
+### Add support for xiaomi mione_plus####
+ #kernel verion=3.4.0#
+ #Working:#
+Booting
+Display
+Touch
+Sdcard
+3D
+USB (Storage and ADB)
+Audio
+Charging
+Buttons
+Wifi
+HW acceleration
+Sensors(Accelerometer/Light/Proximity)
+Camera
+GPS
+Compass
+Offline changing
+Bluetooth
+Radio
+USB/Bluetooth tethering
+######THX TO######
+CyanogenMod Team
+Team-Hydra 
+PeterCxy
+ivan
+tobbytan
+rtfpessoa
